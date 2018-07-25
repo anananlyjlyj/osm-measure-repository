@@ -1,4 +1,4 @@
-package org.giscience.yajie;
+package org.giscience.osmMeasures.repository;
 import org.heigit.bigspatialdata.oshdb.util.tagInterpreter.TagInterpreter;
 import org.heigit.bigspatialdata.oshdb.osm.OSMEntity;
 import org.heigit.bigspatialdata.oshdb.osm.OSMRelation;
