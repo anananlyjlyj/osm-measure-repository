@@ -16,12 +16,12 @@ import java.util.Collections;
 import java.util.SortedMap;
 
 public class MeasureInvalidPolygon extends MeasureOSHDB<Number, OSMEntitySnapshot> {
-/*
+
     @Override
     public Boolean refersToTimeSpan() {
-        return false;
+        return true;
     }
-
+/*
     @Override
     public Integer defaultDaysBefore() {
         return 3 * 12 * 30;
@@ -51,14 +51,15 @@ public class MeasureInvalidPolygon extends MeasureOSHDB<Number, OSMEntitySnapsho
                 .osmType(OSMType.WAY)
                 .filter(snapshot -> defaultTagInterpreter.isArea(snapshot.getEntity()))
                 .map(snapshot -> {
+                    try {
                         if (!OSHDBGeometryBuilder.getGeometry(snapshot.getEntity(),
                                 snapshot.getTimestamp(), defaultTagInterpreter
                         ).isSimple()) {
-                            return 1;
+                            return 1.;
                         }
-                        else
-                        {return 0;}
-                            })
+                    }catch (Exception e){}
+                    return 0.;
+                    })
                 .sum());
 
     }
