@@ -3,6 +3,7 @@ package org.giscience.osmMeasures.repository;
 import com.google.common.base.MoreObjects;
 import it.unimi.dsi.fastutil.ints.*;
 import org.giscience.measures.rest.measure.MeasureOSHDB;
+import org.giscience.measures.rest.server.OSHDBRequestParameter;
 import org.giscience.measures.rest.server.RequestParameter;
 import org.giscience.measures.tools.Cast;
 import org.giscience.utils.geogrid.cells.GridCell;
@@ -56,6 +57,7 @@ public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMEntitySn
             return MoreObjects.toStringHelper("Tag").add("key", key).add("value", value).toString();
         }
     }
+
 /*
     @Override
     public Boolean refersToTimeSpan() {
@@ -76,10 +78,11 @@ public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMEntitySn
     // MapReducer<OSMContribution> mr = OSMContributionView.on(oshdb);
 
     @Override
-    public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnapshot> mapReducer, RequestParameter p) throws Exception {
+    public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnapshot> mapReducer, OSHDBRequestParameter p) throws Exception {
         return Cast.result(mapReducer
                 .osmTag("highway")
-                .groupByEntity().flatMap(contributions -> {
+                .count());
+                /*.groupByEntity().flatMap(contributions -> {
                     if(contributions.isEmpty())
                         return Collections.emptyList();
                     long id = contributions.get(0).getEntityAfter().getId();
@@ -147,7 +150,7 @@ public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMEntitySn
 
         res.forEach((tag,histo) -> {
             System.out.println(tag+" : "+histo);
-        });
+        });*/
 
     }
     }
