@@ -8,6 +8,7 @@
     <modules>
         <module>MeasureInvalidPolygon</module>
         <module>MeasureNumberOfTagRollback</module>
+        <module>MeasurePolygonsWithRepeatedPoints</module>
     </modules>
     <dependencies>
         <dependency>
