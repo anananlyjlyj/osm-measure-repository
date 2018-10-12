@@ -58,12 +58,11 @@ public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMEntitySn
         }
     }
 
-/*
     @Override
     public Boolean refersToTimeSpan() {
         return false;
     }
-
+/*
     @Override
     public Integer defaultDaysBefore() {
         return 3 * 12 * 30;
@@ -82,7 +81,8 @@ public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMEntitySn
         return Cast.result(mapReducer
                 .osmTag("highway")
                 .count());
-                /*.groupByEntity().flatMap(contributions -> {
+                /*.groupByEntity()
+                .flatMap(contributions -> {
                     if(contributions.isEmpty())
                         return Collections.emptyList();
                     long id = contributions.get(0).getEntityAfter().getId();
