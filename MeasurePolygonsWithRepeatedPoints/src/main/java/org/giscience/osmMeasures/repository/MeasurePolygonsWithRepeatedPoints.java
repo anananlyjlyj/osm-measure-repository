@@ -53,7 +53,7 @@ public class MeasurePolygonsWithRepeatedPoints extends MeasureOSHDB<Number, OSME
                         -1
                 ))
                 .osmType(OSMType.WAY)
-                .filter(snapshot -> defaultTagInterpreter.isArea(snapshot.getEntity()))
+                //.filter(snapshot -> defaultTagInterpreter.isArea(snapshot.getEntity()))
                 .filter(snapshot -> ((LineString) snapshot.getGeometryUnclipped()).isClosed())
                 .map(snapshot -> {
                     try {
