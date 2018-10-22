@@ -10,6 +10,7 @@
         <module>MeasureNumberOfTagRollback</module>
         <module>MeasurePolygonsWithRepeatedPoints</module>
         <module>MeasurePolygonsWithWeirdCorner</module>
+        <module>MeasureNodesWithAddressInsideABuilding</module>
     </modules>
     <dependencies>
         <dependency>
