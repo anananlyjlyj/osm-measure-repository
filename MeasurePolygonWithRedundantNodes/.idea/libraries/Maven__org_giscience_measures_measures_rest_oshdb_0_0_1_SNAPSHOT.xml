@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.giscience.measures:measures-rest-oshdb:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/giscience/measures/measures-rest-oshdb/0.0.1-SNAPSHOT/measures-rest-oshdb-0.0.1-20180713.115302-82.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/giscience/measures/measures-rest-oshdb/0.0.1-SNAPSHOT/measures-rest-oshdb-0.0.1-20180713.115302-82-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/giscience/measures/measures-rest-oshdb/0.0.1-SNAPSHOT/measures-rest-oshdb-0.0.1-20180713.115302-82-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

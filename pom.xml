@@ -11,6 +11,7 @@
         <module>MeasurePolygonsWithRepeatedPoints</module>
         <module>MeasurePolygonsWithWeirdCorner</module>
         <module>MeasureNodesWithAddressInsideABuilding</module>
+        <module>MeasurePolygonWithRedundantNodes</module>
     </modules>
     <dependencies>
         <dependency>

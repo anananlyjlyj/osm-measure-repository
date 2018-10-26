@@ -36,7 +36,6 @@ public class MeasurePolygonsWithRepeatedPoints extends MeasureOSHDB<Number, OSME
     }
 */
 
-
     @Override
     public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnapshot> mapReducer, OSHDBRequestParameter p) throws Exception {
         OSHDBJdbc oshdb = (OSHDBJdbc) this.getOSHDB();
