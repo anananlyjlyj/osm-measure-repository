@@ -54,9 +54,8 @@ public class MeasurePolygonWithRedundantNodes extends MeasureOSHDB<Number, OSMEn
                             }catch (Exception e) {}
                             return 0.;
                         }
-                    }
+                    }return 0.;
                 })
-                .aggregateByTimestamp()
                 .sum());
     }
 }
