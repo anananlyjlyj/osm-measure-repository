@@ -48,7 +48,7 @@ public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnap
             .filter(snapshot -> {
                 return snapshot.getEntity().hasTagKey(translator.getOSHDBTagKeyOf(ADDRESS_KEY));
             })
-            //.containsWhich("building","house",false)
+            .containsWhich("building","house",false)
             .count());
     }
 }
