@@ -6,12 +6,13 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>MeasureInvalidPolygon</module>
         <module>MeasureNumberOfTagRollback</module>
         <module>MeasurePolygonsWithRepeatedPoints</module>
         <module>MeasurePolygonsWithWeirdCorner</module>
         <module>MeasureNodesWithAddressInsideABuilding</module>
         <module>MeasurePolygonWithRedundantNodes</module>
+        <module>MeasureNotSimplePolygon</module>
+        <module>MeasureDisplacementOfElements</module>
     </modules>
     <dependencies>
         <dependency>
