@@ -34,10 +34,9 @@ public class MeasureDisplacementOfElements extends MeasureOSHDB<Number, OSMContr
                         .osmTag(p.getOSMTag())
                         .filter(contrib ->
                                 contrib.getContributionTypes().contains(ContributionType.GEOMETRY_CHANGE))
-                        .aggregateBy(contribution -> contribution.getEntityAfter().getId())
                         .filter(contr -> contr.getGeometryBefore().getDimension()==2)
-                        //defaultTagInterpreter.isArea(snapshot.getEntityAfter())&&
                         .filter(cont ->(Geo.areaOf(cont.getGeometryAfter()) / Geo.areaOf(cont.getGeometryBefore()) <= 10))
+                        .aggregateBy(contribution -> contribution.getEntityAfter().getId())
                         .sum(contribution -> {
                             Coordinate before = contribution.getGeometryBefore().getCentroid().getCoordinate();
                             Coordinate after = contribution.getGeometryAfter().getCentroid().getCoordinate();
