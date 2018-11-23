@@ -16,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureDisplacementOfElements.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -47,8 +47,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,7 +91,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="getcentroid&#9;PSI&#9;JAVA://com.vividsolutions.jts.algorithm.Centroid#getCentroid&#10;getdimension&#9;PSI&#9;JAVA://com.vividsolutions.jts.geom.Geometry#getDimension&#10;isvalid&#9;PSI&#9;JAVA://org.geotools.filter.function.FilterFunction_isValid&#10;mapaggregator&#9;FILE&#9;jar://C:/Users/Yajie/.m2/repository/org/heigit/bigspatialdata/oshdb-api/0.5.0-neighbours-SNAPSHOT/oshdb-api-0.5.0-neighbours-20181109.160527-42.jar!/org/heigit/bigspatialdata/oshdb/api/mapreducer/MapAggregator.class&#10;mapreducer&#9;FILE&#9;jar://C:/Users/Yajie/.m2/repository/org/heigit/bigspatialdata/oshdb-api/0.5.0-neighbours-SNAPSHOT/oshdb-api-0.5.0-neighbours-20181109.160527-42.jar!/org/heigit/bigspatialdata/oshdb/api/mapreducer/MapReducer.class&#10;getcentro&#9;PSI&#9;JAVA://com.vividsolutions.jts.algorithm.Centroid#getCentroid&#10;defaulttag&#9;FILE&#9;jar://C:/Users/Yajie/.m2/repository/org/heigit/bigspatialdata/oshdb-util/0.5.0-neighbours-SNAPSHOT/oshdb-util-0.5.0-neighbours-20181109.160527-42.jar!/org/heigit/bigspatialdata/oshdb/util/tagInterpreter/DefaultTagInterpreter.class" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MeasureTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,6 +203,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureDisplacementOfElements.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureDisplacementOfElements.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
         </state>
@@ -272,7 +279,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureDisplacementOfElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
         </state>
       </provider>
     </entry>

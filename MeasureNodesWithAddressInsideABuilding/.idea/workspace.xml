@@ -77,7 +77,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="neighbour&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.mapreducer.MapAggregator#neighbourhood&#10;containswhich&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.mapreducer.MapAggregator#containsWhich&#10;oshdbj&#9;FILE&#9;jar://C:/Users/Yajie/.m2/repository/org/heigit/bigspatialdata/oshdb-api/0.5.0-neighbours-SNAPSHOT/oshdb-api-0.5.0-neighbours-20181031.152827-40.jar!/org/heigit/bigspatialdata/oshdb/api/db/OSHDBJdbc.class" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MeasureDisplacementOfElements" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -149,6 +149,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="1013" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
