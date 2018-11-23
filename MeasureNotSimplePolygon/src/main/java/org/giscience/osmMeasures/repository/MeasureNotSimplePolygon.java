@@ -38,23 +38,11 @@ public class MeasureNotSimplePolygon extends MeasureOSHDB<Number, OSMEntitySnaps
         OSHDBJdbc oshdb = (OSHDBJdbc) this.getOSHDB();
         DefaultTagInterpreter defaultTagInterpreter = new DefaultTagInterpreter(oshdb.getConnection());
         return Cast.result(mapReducer
-                .tagInterpreter(new FakeTagInterpreter(
-                        -1,
-                        -1,
-                        Collections.emptyMap(),
-                        Collections.emptyMap(),
-                        Collections.emptySet(),
-                        -1,
-                        -1,
-                        -1
-                ))
                 .osmType(OSMType.WAY)
                 .filter(snapshot -> defaultTagInterpreter.isArea(snapshot.getEntity()))
                 .map(snapshot -> {
                     try {
-                        if (!OSHDBGeometryBuilder.getGeometry(snapshot.getEntity(),
-                                snapshot.getTimestamp(), defaultTagInterpreter
-                        ).isSimple()) {
+                        if (!snapshot.getGeometry().isSimple()) {
                             return 1.;
                         }
                     }catch (Exception e){}

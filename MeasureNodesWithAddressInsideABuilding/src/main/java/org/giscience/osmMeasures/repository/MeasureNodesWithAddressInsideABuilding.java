@@ -44,11 +44,13 @@ public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnap
     TagTranslator translator = new TagTranslator(oshdb.getConnection());
     final String ADDRESS_KEY = "addr:housenumber";
     return Cast.result(mapReducer
-            .osmType(OSMType.NODE)
+            //.osmType(OSMType.NODE)
+            .osmTag(entity -> {
+                return entity.hasTagKey("building") || entity.hasTagKey("amenity"))
             .filter(snapshot -> {
                 return snapshot.getEntity().hasTagKey(translator.getOSHDBTagKeyOf(ADDRESS_KEY));
             })
-            .containsWhich("building","house",false)
+            .containsWhich(mapReduce -> {mapReduce.osmTag("");})
             .count());
     }
 }
