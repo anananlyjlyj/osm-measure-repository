@@ -19,7 +19,7 @@ public class MeasureNotSimplePolygon extends MeasureOSHDB<Number, OSMEntitySnaps
 
     @Override
     public Boolean refersToTimeSpan() {
-        return true;
+        return false;
     }
 /*
     @Override
