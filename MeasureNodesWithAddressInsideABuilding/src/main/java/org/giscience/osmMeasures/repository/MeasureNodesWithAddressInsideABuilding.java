@@ -39,7 +39,7 @@ public class MeasureNodesWithAddressInsideABuilding extends MeasureOSHDB<Number,
 */
 @Override
 public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnapshot> mapReducer, OSHDBRequestParameter p) throws Exception {
-    OSHDBJdbc oshdb = (OSHDBJdbc) this.getOSHDB();
+    /*OSHDBJdbc oshdb = (OSHDBJdbc) this.getOSHDB();
     DefaultTagInterpreter defaultTagInterpreter = new DefaultTagInterpreter(oshdb.getConnection());
     TagTranslator translator = new TagTranslator(oshdb.getConnection());
     final String ADDRESS_KEY = "addr:housenumber";
@@ -51,6 +51,9 @@ public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnap
                 return snapshot.getEntity().hasTagKey(translator.getOSHDBTagKeyOf(ADDRESS_KEY));
             })
             .containsWhich(mapReduce -> {mapReduce.osmTag("");})
+            .count());*/
+    return Cast.result(mapReducer
+            .osmType(OSMType.NODE)
             .count());
     }
 }
