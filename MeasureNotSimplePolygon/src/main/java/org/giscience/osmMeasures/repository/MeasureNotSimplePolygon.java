@@ -37,6 +37,7 @@ public class MeasureNotSimplePolygon extends MeasureOSHDB<Number, OSMEntitySnaps
     public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnapshot> mapReducer, OSHDBRequestParameter p) throws Exception {
         return Cast.result(mapReducer
                 .osmType(OSMType.WAY)
+                .osmTag("building")
                 .filter(snapshot -> snapshot.getGeometry().getDimension()==2)
                 .map(snapshot -> {
                     try {
