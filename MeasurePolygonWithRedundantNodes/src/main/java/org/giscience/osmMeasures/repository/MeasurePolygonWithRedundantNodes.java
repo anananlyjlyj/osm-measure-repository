@@ -38,7 +38,8 @@ public class MeasurePolygonWithRedundantNodes extends MeasureOSHDB<Number, OSMEn
         return Cast.result(mapReducer
                 .osmType(OSMType.WAY)
                 .osmTag("building")
-                //.where(entity -> defaultTagInterpreter.isArea(entity))
+                .filter(snapshot -> snapshot.getGeometry().getDimension()==2)
+                // TODO: not finished
                 //.filter(snapshot -> ((LineString) snapshot.getGeometryUnclipped()).isClosed())
                 .filter(snapshot -> snapshot.getGeometryUnclipped().getNumPoints() > 5)
                 // because we excludes rectangles, which contains exactly 5 nodes

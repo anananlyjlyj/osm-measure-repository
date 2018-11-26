@@ -38,21 +38,9 @@ public class MeasurePolygonsWithRepeatedPoints extends MeasureOSHDB<Number, OSME
 
     @Override
     public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnapshot> mapReducer, OSHDBRequestParameter p) throws Exception {
-        OSHDBJdbc oshdb = (OSHDBJdbc) this.getOSHDB();
-        DefaultTagInterpreter defaultTagInterpreter = new DefaultTagInterpreter(oshdb.getConnection());
         return Cast.result(mapReducer
-                .tagInterpreter(new FakeTagInterpreter(
-                        -1,
-                        -1,
-                        Collections.emptyMap(),
-                        Collections.emptyMap(),
-                        Collections.emptySet(),
-                        -1,
-                        -1,
-                        -1
-                ))
                 .osmType(OSMType.WAY)
-                .filter(snapshot -> defaultTagInterpreter.isArea(snapshot.getEntity()))
+                .filter(snapshot -> snapshot.getGeometry().getDimension()==2)
                 .filter(snapshot -> ((LineString) snapshot.getGeometryUnclipped()).isClosed())
                 .map(snapshot -> {
                     try {

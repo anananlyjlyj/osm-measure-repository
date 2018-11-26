@@ -21,7 +21,7 @@ import org.heigit.bigspatialdata.oshdb.util.celliterator.ContributionType;
 import java.util.*;
 import java.util.function.IntConsumer;
 
-public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMEntitySnapshot> {
+public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMContributionView> {
 
     private static Int2IntMap tags(int[] rawTags) {
         Int2IntMap tags = new Int2IntArrayMap(rawTags.length/2);
@@ -60,28 +60,16 @@ public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMEntitySn
 
     @Override
     public Boolean refersToTimeSpan() {
-        return false;
-    }
-/*
-    @Override
-    public Integer defaultDaysBefore() {
-        return 3 * 12 * 30;
+        return true;
     }
 
     @Override
-    public Integer defaultIntervalInDays() {
-        return 30;
-    }
-*/
-
-    // MapReducer<OSMContribution> mr = OSMContributionView.on(oshdb);
-
-    @Override
-    public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnapshot> mapReducer, OSHDBRequestParameter p) throws Exception {
+    public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMContributionView> mapReducer, OSHDBRequestParameter p) throws Exception {
         return Cast.result(mapReducer
                 .osmTag("highway")
                 .count());
                 /*.groupByEntity()
+                // can be replaced by .aggregateBy(contribution -> contribution.getEntityAfter())?
                 .flatMap(contributions -> {
                     if(contributions.isEmpty())
                         return Collections.emptyList();

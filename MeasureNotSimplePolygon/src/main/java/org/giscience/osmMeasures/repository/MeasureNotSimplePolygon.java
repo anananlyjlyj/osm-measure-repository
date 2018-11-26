@@ -3,6 +3,8 @@ package org.giscience.osmMeasures.repository;
 import org.giscience.measures.rest.measure.MeasureOSHDB;
 import org.giscience.measures.rest.server.OSHDBRequestParameter;
 import org.giscience.measures.tools.Cast;
+import org.giscience.measures.tools.Index;
+import org.giscience.measures.tools.Lineage;
 import org.giscience.utils.geogrid.cells.GridCell;
 import org.heigit.bigspatialdata.oshdb.api.db.OSHDBJdbc;
 import org.heigit.bigspatialdata.oshdb.api.mapreducer.MapAggregator;
@@ -37,17 +39,14 @@ public class MeasureNotSimplePolygon extends MeasureOSHDB<Number, OSMEntitySnaps
     public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnapshot> mapReducer, OSHDBRequestParameter p) throws Exception {
         return Cast.result(mapReducer
                 .osmType(OSMType.WAY)
-                .osmTag("building")
+                .osmTag(p.getOSMTag())
                 .filter(snapshot -> snapshot.getGeometry().getDimension()==2)
                 .map(snapshot -> {
                     try {
-                        if (!snapshot.getGeometry().isSimple()) {
-                            return 1.;
-                        }
-                    }catch (Exception e){}
-                    return 0.;
-                })
-                .sum());
-
+                        if (!snapshot.getGeometry().isSimple()) {return 1.;}
+                        } catch (Exception e) {}
+                        return 0.;
+                        })
+                        .sum());
     }
 }
