@@ -45,8 +45,7 @@ public class MeasureNotSimplePolygon extends MeasureOSHDB<Number, OSMEntitySnaps
                     try {
                         if (!snapshot.getGeometry().isSimple()) {return 1.;}
                         } catch (Exception e) {}
-                        return 0.;
-                        })
+                        return 0.; })
                         .sum());
     }
 }

@@ -15,8 +15,8 @@
       <file leaf-file-name="MeasureNotSimplePolygon.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureNotSimplePolygon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="754">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +88,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="issimple&#9;PSI&#9;JAVA://com.vividsolutions.jts.geom.Geometry#isSimple&#10;containswhich&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.mapreducer.MapAggregator#containsWhich&#10;getright&#9;PSI&#9;JAVA://javafx.geometry.Insets#getRight&#10;SerializableSupplier&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.generic.function.SerializableSupplier" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MeasurePolygonsWithRepeatedPoints" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MeasureNotSimplePolygon" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -284,8 +284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureNotSimplePolygon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="754">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

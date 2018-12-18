@@ -49,7 +49,7 @@ public class MeasurePolygonWithRedundantNodes extends MeasureOSHDB<Number, OSMEn
                         for (int j = i + 1; j < g.getNumPoints() - 2; j++) {
                             // number of distance can be changed later
                             try {
-                                if (Geo.isWithinDistance(StaticGeometry.pointN(g, i), StaticGeometry.pointN(g, j), 0.01)) {
+                                if (Geo.isWithinDistance(StaticGeometry.pointN(g, i), StaticGeometry.pointN(g, j), 0.1)) {
                                     return 1.;
                                 }
                             }catch (Exception e) {}
