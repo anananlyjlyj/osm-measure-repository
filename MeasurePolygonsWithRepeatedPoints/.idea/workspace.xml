@@ -40,9 +40,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,6 +78,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,7 +155,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="1013" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -188,13 +187,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state relative-caret-position="425">
+          <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -202,13 +202,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -216,13 +210,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -230,13 +218,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -244,13 +226,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -258,13 +234,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -272,13 +242,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -286,13 +250,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -300,13 +258,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -314,13 +266,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">

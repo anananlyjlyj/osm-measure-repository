@@ -45,10 +45,8 @@ public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnap
     final String ADDRESS_KEY = "addr:housenumber";
     return Cast.result(mapReducer
             .osmType(OSMType.NODE)
-            .filter(snapshot -> {
-                return snapshot.getEntity().hasTagKey(translator.getOSHDBTagKeyOf(ADDRESS_KEY));
-            })
-            .containsWhich("building","house",false)
+            .filter(snapshot -> snapshot.getEntity().hasTagKey(translator.getOSHDBTagKeyOf(ADDRESS_KEY)))
+            .inside("building")
             .count());
     }
 }
