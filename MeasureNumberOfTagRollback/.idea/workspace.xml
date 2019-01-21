@@ -15,12 +15,21 @@
       <file leaf-file-name="MeasureNumberOfTagRollback.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureNumberOfTagRollback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="92" column="59" lean-forward="true" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
+            <state relative-caret-position="595">
+              <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
               <folding>
-                <element signature="e#1970#1971#0" expanded="true" />
-                <element signature="e#2024#2025#0" expanded="true" />
+                <element signature="e#1972#1973#0" expanded="true" />
+                <element signature="e#2026#2027#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapReducer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/heigit/bigspatialdata/oshdb-api/0.5.0-neighbours-SNAPSHOT/oshdb-api-0.5.0-neighbours-20180801.114801-25.jar!/org/heigit/bigspatialdata/oshdb/api/mapreducer/MapReducer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="902" lean-forward="true" selection-start-line="902" selection-end-line="902" />
             </state>
           </provider>
         </entry>
@@ -45,7 +54,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,10 +93,11 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="geojson&#9;FILE&#9;jar://C:/Users/Yajie/.m2/repository/org/geotools/gt-geojson/18-RC1/gt-geojson-18-RC1.jar!/org/geotools/geojson/GeoJSON.class&#10;groupbyentity&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.mapreducer.MapReducer#groupByEntity&#10;groupbyen&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.mapreducer.MapReducer#groupByEntity&#10;getContri&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.object.OSMContribution#getContributionTypes" />
+    <property name="SearchEverywhereHistoryKey" value="groupbyen&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.mapreducer.MapReducer#groupByEntity&#10;geojson&#9;FILE&#9;jar://C:/Users/Yajie/.m2/repository/org/geotools/gt-geojson/18-RC1/gt-geojson-18-RC1.jar!/org/geotools/geojson/GeoJSON.class&#10;groupbyentity&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.mapreducer.MapReducer#groupByEntity&#10;getContri&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.object.OSMContribution#getContributionTypes" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -196,11 +205,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureNumberOfTagRollback.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="92" column="59" lean-forward="true" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
+          <folding>
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureNumberOfTagRollback.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
           <folding>
-            <element signature="e#1970#1971#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -210,8 +230,8 @@
         <state relative-caret-position="1020">
           <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
           <folding>
-            <element signature="e#1970#1971#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -221,8 +241,8 @@
         <state relative-caret-position="2227">
           <caret line="154" column="5" lean-forward="true" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
           <folding>
-            <element signature="e#1970#1971#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -232,8 +252,8 @@
         <state relative-caret-position="510">
           <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
           <folding>
-            <element signature="e#1970#1971#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -243,8 +263,8 @@
         <state relative-caret-position="510">
           <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
           <folding>
-            <element signature="e#1970#1971#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -254,8 +274,8 @@
         <state relative-caret-position="578">
           <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
           <folding>
-            <element signature="e#1970#1971#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -265,8 +285,8 @@
         <state relative-caret-position="1071">
           <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
           <folding>
-            <element signature="e#1970#1971#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -292,13 +312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/heigit/bigspatialdata/oshdb-api/0.5.0-neighbours-SNAPSHOT/oshdb-api-0.5.0-neighbours-20180801.114801-25.jar!/org/heigit/bigspatialdata/oshdb/api/mapreducer/MapReducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="894" column="64" selection-start-line="894" selection-start-column="64" selection-end-line="894" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-geojson/18-RC1/gt-geojson-18-RC1.jar!/org/geotools/geojson/GeoJSON.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -306,13 +319,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/heigit/bigspatialdata/oshdb-api/0.5.0-neighbours-SNAPSHOT/oshdb-api-0.5.0-neighbours-20180801.114801-25.jar!/org/heigit/bigspatialdata/oshdb/api/mapreducer/MapReducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="902" lean-forward="true" selection-start-line="902" selection-end-line="902" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureNumberOfTagRollback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="92" column="59" lean-forward="true" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
+        <state relative-caret-position="595">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
           <folding>
-            <element signature="e#1970#1971#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
           </folding>
         </state>
       </provider>

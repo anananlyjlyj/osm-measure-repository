@@ -12,6 +12,7 @@ import org.heigit.bigspatialdata.oshdb.api.db.OSHDBJdbc;
 import org.heigit.bigspatialdata.oshdb.api.mapreducer.MapAggregator;
 import org.heigit.bigspatialdata.oshdb.api.mapreducer.MapReducer;
 import org.heigit.bigspatialdata.oshdb.api.mapreducer.OSMContributionView;
+import org.heigit.bigspatialdata.oshdb.api.mapreducer.OSMEntitySnapshotView;
 import org.heigit.bigspatialdata.oshdb.api.object.OSMContribution;
 import org.heigit.bigspatialdata.oshdb.api.object.OSMEntitySnapshot;
 import org.heigit.bigspatialdata.oshdb.osm.OSMType;
@@ -21,7 +22,7 @@ import org.heigit.bigspatialdata.oshdb.util.celliterator.ContributionType;
 import java.util.*;
 import java.util.function.IntConsumer;
 
-public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMContributionView> {
+public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMEntitySnapshot> {
 
     private static Int2IntMap tags(int[] rawTags) {
         Int2IntMap tags = new Int2IntArrayMap(rawTags.length/2);
@@ -64,7 +65,7 @@ public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMContribu
     }
 
     @Override
-    public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMContributionView> mapReducer, OSHDBRequestParameter p) throws Exception {
+    public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnapshot> mapReducer, OSHDBRequestParameter p) throws Exception {
         return Cast.result(mapReducer
                 .osmTag("highway")
                 .count());
