@@ -1,4 +1,4 @@
-package org.giscience.osmMeasures.repository;
+/*package org.giscience.osmMeasures.repository;
 
 import com.google.common.base.MoreObjects;
 import it.unimi.dsi.fastutil.ints.*;
@@ -142,4 +142,4 @@ public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMEntitySn
         });*/
 
     }
-    }
+    }*/
