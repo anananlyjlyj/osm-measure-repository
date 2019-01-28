@@ -1,5 +1,8 @@
 package org.giscience.osmMeasures.repository;
 
+import com.vividsolutions.jts.geom.Geometry;
+import com.vividsolutions.jts.geom.LineString;
+import org.geotools.filter.function.StaticGeometry;
 import org.giscience.measures.rest.measure.MeasureOSHDB;
 import org.giscience.measures.rest.server.OSHDBRequestParameter;
 import org.giscience.measures.rest.server.RequestParameter;
@@ -35,13 +38,17 @@ public class MeasureWayWithRepeatedNodes extends MeasureOSHDB<Number, OSMEntityS
         return Cast.result(mapReducer
                 .osmType(OSMType.WAY)
                 .filter(snapshot -> snapshot.getGeometry().getDimension()==1)
+                .filter(snapshot -> ((LineString) snapshot.getGeometryUnclipped()).isClosed())
                 .map(snapshot -> {
-                    try {
-                        if (!snapshot.getGeometry().isSimple()) {
-                            return 1.;
-                        }
-                    }catch (Exception e){}
-                    return 0.;
+                        Geometry g = snapshot.getGeometryUnclipped();
+                        for (int i = 0; i < g.getNumPoints() - 1; i++) {
+                            try {
+                                if (StaticGeometry.equalsExact(StaticGeometry.pointN(g, i), StaticGeometry.pointN(g, i + 1))) {
+                                    return 1.;
+                                }
+                            } catch (Exception e) {
+                            }
+                        }return 0.;
                 })
                 .sum());
 

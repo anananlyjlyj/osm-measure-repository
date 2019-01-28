@@ -15,10 +15,14 @@
       <file leaf-file-name="MeasureNumberOfTagRollback.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureNumberOfTagRollback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="144" column="7" selection-start-line="144" selection-start-column="7" selection-end-line="144" selection-end-column="7" />
+            <state relative-caret-position="272">
+              <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
               <folding>
-                <element signature="e#0#6411#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2047#2048#0" expanded="true" />
+                <element signature="e#2101#2102#0" expanded="true" />
+                <element signature="e#2327#2328#0" expanded="true" />
+                <element signature="e#2354#2355#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -28,7 +32,7 @@
         <entry file="jar://$MAVEN_REPOSITORY$/org/heigit/bigspatialdata/oshdb-api/0.5.0-neighbours-SNAPSHOT/oshdb-api-0.5.0-neighbours-20180801.114801-25.jar!/org/heigit/bigspatialdata/oshdb/api/mapreducer/MapReducer.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="902" lean-forward="true" selection-start-line="902" selection-end-line="902" />
+              <caret line="902" selection-start-line="902" selection-end-line="902" />
             </state>
           </provider>
         </entry>
@@ -43,9 +47,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="288" />
-    <option name="width" value="1530" />
-    <option name="height" value="2016" />
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="1360" />
+    <option name="height" value="1792" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -206,7 +211,11 @@
         <state relative-caret-position="1173">
           <caret line="92" column="59" lean-forward="true" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
           <folding>
-            <element signature="e#0#6411#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -216,7 +225,11 @@
         <state relative-caret-position="969">
           <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
           <folding>
-            <element signature="e#0#6411#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -226,7 +239,11 @@
         <state relative-caret-position="1020">
           <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
           <folding>
-            <element signature="e#0#6411#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -236,7 +253,11 @@
         <state relative-caret-position="2227">
           <caret line="154" column="5" lean-forward="true" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
           <folding>
-            <element signature="e#0#6411#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -246,7 +267,11 @@
         <state relative-caret-position="510">
           <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
           <folding>
-            <element signature="e#0#6411#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -256,7 +281,11 @@
         <state relative-caret-position="510">
           <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
           <folding>
-            <element signature="e#0#6411#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -266,7 +295,11 @@
         <state relative-caret-position="578">
           <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
           <folding>
-            <element signature="e#0#6411#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -276,7 +309,11 @@
         <state relative-caret-position="1071">
           <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
           <folding>
-            <element signature="e#0#6411#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -312,16 +349,20 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/heigit/bigspatialdata/oshdb-api/0.5.0-neighbours-SNAPSHOT/oshdb-api-0.5.0-neighbours-20180801.114801-25.jar!/org/heigit/bigspatialdata/oshdb/api/mapreducer/MapReducer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="902" lean-forward="true" selection-start-line="902" selection-end-line="902" />
+          <caret line="902" selection-start-line="902" selection-end-line="902" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureNumberOfTagRollback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="144" column="7" selection-start-line="144" selection-start-column="7" selection-end-line="144" selection-end-column="7" />
+        <state relative-caret-position="272">
+          <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
           <folding>
-            <element signature="e#0#6411#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
           </folding>
         </state>
       </provider>

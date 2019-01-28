@@ -15,8 +15,8 @@
       <file leaf-file-name="MeasurePolygonsWithRepeatedPoints.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -40,7 +40,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,6 +79,7 @@
       </pane>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,6 +190,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
         </state>
@@ -284,8 +291,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/FakeTagInterpreter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasurePolygonsWithRepeatedPoints.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
         </state>
       </provider>
     </entry>

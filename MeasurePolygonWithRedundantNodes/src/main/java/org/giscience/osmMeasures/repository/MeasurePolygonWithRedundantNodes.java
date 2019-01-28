@@ -46,10 +46,11 @@ public class MeasurePolygonWithRedundantNodes extends MeasureOSHDB<Number, OSMEn
                 .map(snapshot -> {
                     Geometry g = snapshot.getGeometryUnclipped();
                     for (int i = 0; i < g.getNumPoints() - 1; i++) {
-                        for(int j = i+1; j < g.getNumPoints() - 2;j++){
+                        for(int j = i+1; j < g.getNumPoints() - 1;j++){
                             // number of distance can be changed later
                             try {
-                                if (Geo.isWithinDistance(StaticGeometry.pointN(g, i), StaticGeometry.pointN(g, j), 0.1))
+                                if (Geo.isWithinDistance(StaticGeometry.pointN(g, i), StaticGeometry.pointN(g, j), 0.01)
+                                        && !StaticGeometry.equalsExact(StaticGeometry.pointN(g, i),StaticGeometry.pointN(g, j)) )
                                 { return 1.;}
                             }catch (Exception e) {}
                     }}return 0.;

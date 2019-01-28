@@ -1,4 +1,4 @@
-/*package org.giscience.osmMeasures.repository;
+package org.giscience.osmMeasures.repository;
 
 import com.google.common.base.MoreObjects;
 import it.unimi.dsi.fastutil.ints.*;
@@ -68,7 +68,7 @@ public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMEntitySn
     public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnapshot> mapReducer, OSHDBRequestParameter p) throws Exception {
         return Cast.result(mapReducer
                 .osmTag("highway")
-                .count());
+                //.count());
                 /*.groupByEntity()
                 // can be replaced by .aggregateBy(contribution -> contribution.getEntityAfter())?
                 .flatMap(contributions -> {
