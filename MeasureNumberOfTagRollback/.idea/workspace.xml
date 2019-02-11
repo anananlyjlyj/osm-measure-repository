@@ -46,10 +46,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="288" />
-    <option name="width" value="1530" />
-    <option name="height" value="2016" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="1360" />
+    <option name="height" value="1792" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -100,7 +101,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="groupbyen&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.mapreducer.MapReducer#groupByEntity&#10;geojson&#9;FILE&#9;jar://C:/Users/Yajie/.m2/repository/org/geotools/gt-geojson/18-RC1/gt-geojson-18-RC1.jar!/org/geotools/geojson/GeoJSON.class&#10;groupbyentity&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.mapreducer.MapReducer#groupByEntity&#10;getContri&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.object.OSMContribution#getContributionTypes" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MeasurePolygonsWithRepeatedPoints" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,7 +172,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1513" height="1013" extended-state="7" />
+    <frame x="-6" y="-6" width="1513" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />

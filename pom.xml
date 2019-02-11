@@ -14,6 +14,7 @@
         <module>MeasureNotSimplePolygon</module>
         <module>MeasureDisplacementOfElements</module>
         <module>MeasureWayWithRepeatedNodes</module>
+        <module>MeasureInvalidBuildings</module>
     </modules>
     <dependencies>
         <dependency>

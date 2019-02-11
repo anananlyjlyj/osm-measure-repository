@@ -40,12 +40,16 @@ public class MeasurePolygonsWithRepeatedPoints extends MeasureOSHDB<Number, OSME
     public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnapshot> mapReducer, OSHDBRequestParameter p) throws Exception {
         return Cast.result(mapReducer
                 .osmType(OSMType.WAY)
+                .osmTag(p.getOSMTag())
                 .filter(snapshot -> snapshot.getGeometry().getDimension()==1)
-                .filter(snapshot -> ((LineString) snapshot.getGeometryUnclipped()).isClosed())
+                //.filter(snapshot -> ((LineString) snapshot.getGeometryUnclipped()).isClosed())
+                // example: isColsed == true -> result 87
+                // without isColsed == true -> result 320
                 .map(snapshot -> {
                     Geometry g = snapshot.getGeometryUnclipped();
                     for (int i = 0; i < g.getNumPoints() - 1; i++) {
-                        if (StaticGeometry.equalsExact(StaticGeometry.pointN(g,i),StaticGeometry.pointN(g,i+1))) {
+                        for(int j = i+1; j < g.getNumPoints() - 1; j++)
+                            if (StaticGeometry.equalsExact(StaticGeometry.pointN(g,i),StaticGeometry.pointN(g,j))) {
                             return 1.; }
                         }
                     return 0.;

@@ -41,6 +41,7 @@ public class MeasureNotSimplePolygon extends MeasureOSHDB<Number, OSMEntitySnaps
                 .osmType(OSMType.WAY)
                 .osmTag(p.getOSMTag())
                 .filter(snapshot -> snapshot.getGeometry().getDimension()==2)
+                // dim == 2 same as defaultTagInterpreter.isArea(snapshot.getEntity());
                 .map(snapshot -> {
                     try {
                         if (!snapshot.getGeometry().isSimple()) {return 1.;}
