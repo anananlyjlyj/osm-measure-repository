@@ -39,9 +39,9 @@ public class MeasureInvalidBuildings extends MeasureOSHDB<Number, OSMEntitySnaps
                 .osmType(OSMType.WAY)
                 .osmTag("building")
                 .map(snapshot -> {
-                    Geometry g = snapshot.getGeometryUnclipped();
-                    if (!((LineString) g).isClosed())
-                        return 1.;
+                    try {
+                        if (!((LineString) snapshot.getGeometry()).isClosed()) {return 1.;}
+                    } catch (Exception e) {}
                     return 0.;
                 })
                 .sum());
