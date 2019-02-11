@@ -8,12 +8,12 @@
     <modules>
         <module>MeasureNumberOfTagRollback</module>
         <module>MeasurePolygonsWithRepeatedPoints</module>
-        <module>MeasurePolygonsWithWeirdCorner</module>
         <module>MeasureNodesWithAddressInsideABuilding</module>
         <module>MeasurePolygonWithRedundantNodes</module>
         <module>MeasureNotSimplePolygon</module>
         <module>MeasureDisplacementOfElements</module>
         <module>MeasureInvalidBuildings</module>
+        <module>MeasurePolygonWithAcuteAngle</module>
     </modules>
     <dependencies>
         <dependency>
