@@ -142,4 +142,4 @@ public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMEntitySn
         });*/
 
     }
-    }*/
+    }
