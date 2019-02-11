@@ -41,7 +41,8 @@ public class MeasurePolygonsWithRepeatedPoints extends MeasureOSHDB<Number, OSME
         return Cast.result(mapReducer
                 .osmType(OSMType.WAY)
                 .osmTag(p.getOSMTag())
-                .filter(snapshot -> snapshot.getGeometry().getDimension()==1)
+                .count());
+                /*.filter(snapshot -> snapshot.getGeometry().getDimension()==1)
                 //.filter(snapshot -> ((LineString) snapshot.getGeometryUnclipped()).isClosed())
                 // example: isColsed == true -> result 87
                 // without isColsed == true -> result 320
@@ -54,6 +55,6 @@ public class MeasurePolygonsWithRepeatedPoints extends MeasureOSHDB<Number, OSME
                         }
                     return 0.;
                 })
-                .sum());
+                .sum());*/
     }
 }
