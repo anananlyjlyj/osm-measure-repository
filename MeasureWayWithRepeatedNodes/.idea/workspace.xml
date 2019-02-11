@@ -31,10 +31,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-16" />
-    <option name="y" value="-16" />
-    <option name="width" value="1360" />
-    <option name="height" value="1792" />
+    <option name="x" value="288" />
+    <option name="width" value="1530" />
+    <option name="height" value="2016" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -171,6 +170,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-2" width="680" height="896" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
