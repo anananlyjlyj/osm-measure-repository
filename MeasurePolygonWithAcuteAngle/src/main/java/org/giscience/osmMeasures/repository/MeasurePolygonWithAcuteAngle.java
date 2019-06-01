@@ -60,6 +60,7 @@ public class MeasurePolygonWithAcuteAngle extends MeasureOSHDB<Number, OSMEntity
                         if (j >= g.getNumPoints()) j = j - n + 1;
                         int k = j + 1;
                         if (k >= g.getNumPoints()) k = k - n + 1;
+                        // Value of angle can be changed later
                         if ((Angle.angleBetween(StaticGeometry.pointN(g,i).getCoordinate(),StaticGeometry.pointN(g,j).getCoordinate(), StaticGeometry.pointN(g,k).getCoordinate())<0.1)
                                 && !StaticGeometry.equalsExact(StaticGeometry.pointN(g,i), StaticGeometry.pointN(g,j))
                                 && !StaticGeometry.equalsExact(StaticGeometry.pointN(g,i), StaticGeometry.pointN(g,k))

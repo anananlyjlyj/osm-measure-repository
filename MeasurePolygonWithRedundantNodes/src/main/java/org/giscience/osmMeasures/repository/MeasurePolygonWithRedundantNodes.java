@@ -56,9 +56,9 @@ public class MeasurePolygonWithRedundantNodes extends MeasureOSHDB<Number, OSMEn
                     for (int i = 0; i < g.getNumPoints(); i++) {
                         for(int j = i+1; j < g.getNumPoints()-1;j++){
                             // number of distance can be changed later
-                            if (Geo.isWithinDistance(StaticGeometry.pointN(g, i), StaticGeometry.pointN(g, j), 0.01)
+                            if (Geo.isWithinDistance(StaticGeometry.pointN(g, i), StaticGeometry.pointN(g, j), 0.1)
                                 && !StaticGeometry.equalsExact(StaticGeometry.pointN(g, i),StaticGeometry.pointN(g, j)) )
-                            { return 1.;}
+                                return 1.;
                     }}return 0.;
                 })
                 .sum());

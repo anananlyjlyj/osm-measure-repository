@@ -59,8 +59,8 @@ public class MeasurePolygonsWithRepeatedPoints extends MeasureOSHDB<Number, OSME
                     Geometry g = snapshot.getGeometryUnclipped();
                     for (int i = 0; i < g.getNumPoints(); i++) {
                         for(int j = i+1; j < g.getNumPoints()-1; j++)
-                            if (StaticGeometry.equalsExact(StaticGeometry.pointN(g,i),StaticGeometry.pointN(g,j))) {
-                            return 1.; }
+                            if (StaticGeometry.equalsExact(StaticGeometry.pointN(g,i),StaticGeometry.pointN(g,j)))
+                            return 1.;
                         }
                     return 0.;
                 })
