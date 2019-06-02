@@ -35,18 +35,16 @@ public class MeasureNodesDensity extends MeasureOSHDB<Number, OSMEntitySnapshot>
 
     @Override
     public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnapshot> mapReducer, OSHDBRequestParameter p) throws Exception {
-        return Index.reduce(
+        return Cast.result(
                 mapReducer
                         .osmTag(p.getOSMTag())
                         .filter(snapshot -> snapshot.getGeometryUnclipped().getNumPoints() > 5)
                         // make sure is polygon
                         .filter(snapshot -> snapshot.getGeometry().getDimension()==1)
-                        .aggregateBy(snapshot -> snapshot.getEntity().getId())
-                        .average(snapshot -> {
+                        .map(snapshot -> {
                             Geometry g = snapshot.getGeometryUnclipped();
-                            return Geo.areaOf(g)/g.getNumPoints();
-                        }),
-                Lineage::average);
+                            return Geo.areaOf(g)/g.getNumPoints();})
+                        .average());
 
     }
 }
