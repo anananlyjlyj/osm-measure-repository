@@ -42,7 +42,7 @@ public class MeasurePolygonCompactness extends MeasureOSHDB<Number, OSMEntitySna
                     // implemented according to Polsby-Popper Test
                     Geometry g = snapshot.getGeometryUnclipped();
                     Double perimeter = Geo.lengthOf(g.getBoundary());
-                    Double PPD = 4*Geo.areaOf(g)/(perimeter*perimeter);
+                    Double PPD = 4*Math.PI*Geo.areaOf(g)/(perimeter*perimeter);
                     // PPD close to 1 means the polygon has great compactness
                     return PPD < 0.1;
                 })

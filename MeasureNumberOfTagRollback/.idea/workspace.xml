@@ -46,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-18" />
     <option name="y" value="-18" />
     <option name="width" value="1362" />
@@ -101,7 +101,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="groupbyen&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.mapreducer.MapReducer#groupByEntity&#10;geojson&#9;FILE&#9;jar://C:/Users/Yajie/.m2/repository/org/geotools/gt-geojson/18-RC1/gt-geojson-18-RC1.jar!/org/geotools/geojson/GeoJSON.class&#10;groupbyentity&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.mapreducer.MapReducer#groupByEntity&#10;getContri&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.object.OSMContribution#getContributionTypes" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MeasureUnclosedPolygon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MeasureFeaturesWithTagSourceOfLocalKnowledge" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -172,7 +172,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1346" height="901" extended-state="7" />
+    <frame x="-6" y="-6" width="1513" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -187,7 +187,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.055472262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />

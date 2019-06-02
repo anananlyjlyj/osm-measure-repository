@@ -16,6 +16,8 @@
         <module>MeasurePolygonWithAcuteAngle</module>
         <module>MeasureNumberOfFeatureVersions</module>
         <module>MeasurePolygonCompactness</module>
+        <module>MeasureAverageNumberOfContributorsOnHeo</module>
+        <module>MeasureFeaturesWithTagSourceOfLocalKnowledge</module>
     </modules>
     <dependencies>
         <dependency>
