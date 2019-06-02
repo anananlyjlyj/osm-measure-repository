@@ -15,6 +15,7 @@
         <module>MeasureInvalidBuildings</module>
         <module>MeasurePolygonWithAcuteAngle</module>
         <module>MeasureNumberOfFeatureVersions</module>
+        <module>MeasureNodesDensity</module>
     </modules>
     <dependencies>
         <dependency>

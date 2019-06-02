@@ -49,6 +49,7 @@ public class MeasurePolygonWithRedundantNodes extends MeasureOSHDB<Number, OSMEn
                 ))
                 .osmType(OSMType.WAY)
                 .osmTag(p.getOSMTag())
+                // make sure is polygon
                 .filter(snapshot -> snapshot.getGeometry().getDimension()==1)
                 //.filter(snapshot -> ((LineString) snapshot.getGeometryUnclipped()).isClosed())
                 .map(snapshot -> {
