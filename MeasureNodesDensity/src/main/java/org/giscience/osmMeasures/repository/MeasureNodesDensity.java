@@ -42,11 +42,11 @@ public class MeasureNodesDensity extends MeasureOSHDB<Number, OSMEntitySnapshot>
                         // make sure is polygon
                         .filter(snapshot -> snapshot.getGeometry().getDimension()==1)
                         .aggregateBy(snapshot -> snapshot.getEntity().getId())
-                        .sum(snapshot -> {
+                        .average(snapshot -> {
                             Geometry g = snapshot.getGeometryUnclipped();
                             return Geo.areaOf(g)/g.getNumPoints();
                         }),
-                Lineage::sum);
+                Lineage::average);
 
     }
 }
