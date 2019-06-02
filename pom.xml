@@ -18,6 +18,7 @@
         <module>MeasurePolygonCompactness</module>
         <module>MeasureAverageNumberOfContributorsOnHeo</module>
         <module>MeasureFeaturesWithTagSourceOfLocalKnowledge</module>
+        <module>MeasureDaysSinceLastEdit</module>
     </modules>
     <dependencies>
         <dependency>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.mocnik-science:osm-measure-repository:master">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/mocnik-science/osm-measure-repository/master/osm-measure-repository-master.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/mocnik-science/osm-measure-repository/master/osm-measure-repository-master-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/mocnik-science/osm-measure-repository/master/osm-measure-repository-master-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
