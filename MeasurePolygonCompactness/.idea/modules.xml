@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MeasureNodesDensity.iml" filepath="$PROJECT_DIR$/MeasureNodesDensity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MeasurePolygonCompactness.iml" filepath="$PROJECT_DIR$/MeasurePolygonCompactness.iml" />
     </modules>
   </component>
 </project>

@@ -24,8 +24,8 @@
       <file leaf-file-name="MeasureNodesWithAddressInsideABuilding.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureNodesWithAddressInsideABuilding.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+            <state relative-caret-position="510">
+              <caret line="49" column="22" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="49" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -86,7 +86,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="containswhich&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.mapreducer.MapReducer#containsWhich&#10;neighbour&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.api.mapreducer.MapAggregator#neighbourhood&#10;oshdbj&#9;FILE&#9;jar://C:/Users/Yajie/.m2/repository/org/heigit/bigspatialdata/oshdb-api/0.5.0-neighbours-SNAPSHOT/oshdb-api-0.5.0-neighbours-20181031.152827-40.jar!/org/heigit/bigspatialdata/oshdb/api/db/OSHDBJdbc.class" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MeasurePolygonCompactness" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -368,8 +368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureNodesWithAddressInsideABuilding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        <state relative-caret-position="510">
+          <caret line="49" column="22" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="49" selection-end-column="22" />
         </state>
       </provider>
     </entry>
