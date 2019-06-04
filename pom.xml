@@ -18,6 +18,7 @@
         <module>MeasureAverageNumberOfContributorsOnHeo</module>
         <module>MeasureFeaturesWithTagSourceOfLocalKnowledge</module>
         <module>MeasureDaysSinceLastEdit</module>
+        <module>MeasureFeaturesNotEditedWithinXDays</module>
     </modules>
     <dependencies>
         <dependency>
