@@ -44,7 +44,7 @@ public class MeasureFeaturesWithTagSourceOfLocalKnowledge extends MeasureOSHDB<N
         TagTranslator tagTranslator = new TagTranslator(oshdb.getConnection());
         return Cast.result(mapReducer
                 .osmTag(p.getOSMTag())
-                .map(snapshot -> {
+                .filter(snapshot -> {
                     OSHDBTag tag1 = tagTranslator.getOSHDBTagOf("source", "local knowledge");
                     OSHDBTag tag2 = tagTranslator.getOSHDBTagOf("source", "local_knowledge");
                     return (snapshot.getEntity().hasTagValue(tag1.getKey(), tag1.getValue()) || snapshot.getEntity().hasTagValue(tag2.getKey(), tag2.getValue()));
