@@ -15,8 +15,17 @@
       <file leaf-file-name="MeasureFeaturesWithTagSourceOfLocalKnowledge.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureFeaturesWithTagSourceOfLocalKnowledge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+            <state relative-caret-position="510">
+              <caret line="49" column="162" selection-start-line="49" selection-start-column="162" selection-end-line="49" selection-end-column="162" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OSMEntity.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/heigit/bigspatialdata/oshdb/0.5.0-neighbours-SNAPSHOT/oshdb-0.5.0-neighbours-20190130.113617-46.jar!/org/heigit/bigspatialdata/oshdb/osm/OSMEntity.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="134" column="41" lean-forward="true" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -43,6 +52,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,10 +90,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="hastagval&#9;PSI&#9;JAVA://org.heigit.bigspatialdata.oshdb.osm.OSMEntity#hasTagValue&#10;getkey&#9;PSI&#9;JAVA://org.apache.commons.pool.impl.GenericKeyedObjectPool.Latch#getkey" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MeasureFeaturesNotEditedWithinXDays" />
   </component>
   <component name="RunDashboard">
@@ -191,6 +201,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureFeaturesWithTagSourceOfLocalKnowledge.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureFeaturesWithTagSourceOfLocalKnowledge.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
         </state>
@@ -210,10 +227,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar!/org/apache/commons/pool/impl/GenericKeyedObjectPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="1159" column="36" selection-start-line="1159" selection-start-column="36" selection-end-line="1159" selection-end-column="36" />
+          <folding>
+            <element signature="e#44267#44268#0" expanded="true" />
+            <element signature="e#44307#44308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/heigit/bigspatialdata/oshdb/0.5.0-neighbours-SNAPSHOT/oshdb-0.5.0-neighbours-20190130.113617-46.jar!/org/heigit/bigspatialdata/oshdb/osm/OSMEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="134" column="41" lean-forward="true" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureFeaturesWithTagSourceOfLocalKnowledge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        <state relative-caret-position="510">
+          <caret line="49" column="162" selection-start-line="49" selection-start-column="162" selection-end-line="49" selection-end-column="162" />
         </state>
       </provider>
     </entry>
