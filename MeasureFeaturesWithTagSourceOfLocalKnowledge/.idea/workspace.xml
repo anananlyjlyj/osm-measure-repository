@@ -15,8 +15,8 @@
       <file leaf-file-name="MeasureFeaturesWithTagSourceOfLocalKnowledge.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureFeaturesWithTagSourceOfLocalKnowledge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="612">
+              <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -41,7 +41,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,8 +80,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,6 +191,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureFeaturesWithTagSourceOfLocalKnowledge.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureFeaturesWithTagSourceOfLocalKnowledge.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
         </state>
@@ -205,8 +212,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giscience/osmMeasures/repository/MeasureFeaturesWithTagSourceOfLocalKnowledge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        <state relative-caret-position="612">
+          <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
         </state>
       </provider>
     </entry>
