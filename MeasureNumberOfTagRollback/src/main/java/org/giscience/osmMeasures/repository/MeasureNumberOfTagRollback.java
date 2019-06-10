@@ -6,6 +6,8 @@ import org.giscience.measures.rest.measure.MeasureOSHDB;
 import org.giscience.measures.rest.server.OSHDBRequestParameter;
 import org.giscience.measures.rest.server.RequestParameter;
 import org.giscience.measures.tools.Cast;
+import org.giscience.measures.tools.Index;
+import org.giscience.measures.tools.Lineage;
 import org.giscience.utils.geogrid.cells.GridCell;
 import org.heigit.bigspatialdata.oshdb.api.db.OSHDBH2;
 import org.heigit.bigspatialdata.oshdb.api.db.OSHDBJdbc;
@@ -19,10 +21,11 @@ import org.heigit.bigspatialdata.oshdb.osm.OSMType;
 import org.heigit.bigspatialdata.oshdb.util.OSHDBBoundingBox;
 import org.heigit.bigspatialdata.oshdb.util.celliterator.ContributionType;
 
-import java.util.*;
+import java.util.Objects;
+import java.util.SortedMap;
 import java.util.function.IntConsumer;
 
-public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMEntitySnapshot> {
+public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMContribution> {
 
     private static Int2IntMap tags(int[] rawTags) {
         Int2IntMap tags = new Int2IntArrayMap(rawTags.length/2);
@@ -65,10 +68,12 @@ public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMEntitySn
     }
 
     @Override
-    public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMEntitySnapshot> mapReducer, OSHDBRequestParameter p) throws Exception {
-        return Cast.result(mapReducer
-                .osmTag("highway")
-                .count());
+    public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMContribution> mapReducer, OSHDBRequestParameter p) throws Exception {
+        return Index.reduce(mapReducer
+                        .osmTag(p.getOSMTag())
+                        .aggregateBy(contribution -> contribution.getEntityAfter().getId())
+                        .count(),
+                Lineage::average);
                 /*.groupByEntity()
                 // can be replaced by .aggregateBy(contribution -> contribution.getEntityAfter())?
                 .flatMap(contributions -> {
