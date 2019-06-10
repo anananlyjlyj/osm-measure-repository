@@ -27,7 +27,7 @@ import java.util.function.IntConsumer;
 
 public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMContribution> {
 
-    private static Int2IntMap tags(int[] rawTags) {
+    /*private static Int2IntMap tags(int[] rawTags) {
         Int2IntMap tags = new Int2IntArrayMap(rawTags.length/2);
         for(int i=0; i< rawTags.length; i +=2){
             tags.put(rawTags[i], rawTags[i+1]);
@@ -60,7 +60,7 @@ public class MeasureNumberOfTagRollback extends MeasureOSHDB<Number, OSMContribu
         public String toString() {
             return MoreObjects.toStringHelper("Tag").add("key", key).add("value", value).toString();
         }
-    }
+    }*/
 
     @Override
     public Boolean refersToTimeSpan() {
