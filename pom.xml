@@ -6,7 +6,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-<<<<<<< HEAD
         <module>MeasureNumberOfTagRollback</module>
         <module>MeasurePolygonsWithRepeatedPoints</module>
         <module>MeasureNodesWithAddressInsideABuilding</module>
@@ -20,9 +19,7 @@
         <module>MeasureFeaturesWithTagSourceOfLocalKnowledge</module>
         <module>MeasureDaysSinceLastEdit</module>
         <module>MeasureFeaturesNotEditedWithinXDays</module>
-=======
         <module>MeasureAverageNumberOfTagUpdates</module>
->>>>>>> fd3d86917e9327858529450a55cc7358a3c98f70
     </modules>
     <dependencies>
         <dependency>
