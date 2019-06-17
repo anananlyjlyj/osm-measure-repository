@@ -55,13 +55,13 @@ public class MeasurePolygonWithAcuteAngle extends MeasureOSHDB<Number, OSMEntity
                 .map(snapshot -> {
                     Geometry g = snapshot.getGeometryUnclipped();
                     Integer n = StaticGeometry.numPoints(g);
+                    double ang = p.get("angle").toDouble();
                     for (int i = 0; i < n - 1; i++) {
                         int j = i + 1;
                         if (j >= g.getNumPoints()) j = j - n + 1;
                         int k = j + 1;
                         if (k >= g.getNumPoints()) k = k - n + 1;
-                        // Value of angle can be changed later
-                        if ((Angle.angleBetween(StaticGeometry.pointN(g,i).getCoordinate(),StaticGeometry.pointN(g,j).getCoordinate(), StaticGeometry.pointN(g,k).getCoordinate())<0.1)
+                        if ((Angle.angleBetween(StaticGeometry.pointN(g,i).getCoordinate(),StaticGeometry.pointN(g,j).getCoordinate(), StaticGeometry.pointN(g,k).getCoordinate())< ang)
                                 && !StaticGeometry.equalsExact(StaticGeometry.pointN(g,i), StaticGeometry.pointN(g,j))
                                 && !StaticGeometry.equalsExact(StaticGeometry.pointN(g,i), StaticGeometry.pointN(g,k))
                                 && !StaticGeometry.equalsExact(StaticGeometry.pointN(g,k), StaticGeometry.pointN(g,j)))

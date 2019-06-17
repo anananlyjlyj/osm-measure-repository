@@ -20,6 +20,7 @@
         <module>MeasureDaysSinceLastEdit</module>
         <module>MeasureFeaturesNotEditedWithinXDays</module>
         <module>MeasureAverageNumberOfTagUpdates</module>
+        <module>MeasureShortestEdge</module>
     </modules>
     <dependencies>
         <dependency>
